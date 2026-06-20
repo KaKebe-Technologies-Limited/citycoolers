@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <head>
     <!-- Primary Meta Tags -->
     <title>About Us - City Coolers Engineering Ltd | Refrigeration Experts in Uganda</title>
-    <meta name="description" content="Learn about City Coolers Engineering Ltd, a leading refrigeration and air conditioning company in Kampala, Uganda. Certified engineers with 45+ years of combined experience.">
+    <meta name="description" content="Learn about City Coolers Engineering Ltd, a leading refrigeration and air conditioning company in Kampala, Uganda. Certified engineers with 8+ years of experience.">
     <meta name="keywords" content="about City Coolers, refrigeration company Uganda, air conditioning experts Kampala, certified engineers, cooling solutions">
     <meta name="robots" content="index, follow">
     
@@ -12,16 +11,18 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.citycoolers.co.ug/about.html">
     <meta property="og:title" content="About Us - City Coolers Engineering Ltd | Refrigeration Experts in Uganda">
-    <meta property="og:description" content="Leading refrigeration and air conditioning company in Kampala, Uganda. Certified engineers with 45+ years of combined experience.">
+    <meta property="og:description" content="Leading refrigeration and air conditioning company in Kampala, Uganda. Certified engineers with 8+ years of experience.">
     <meta property="og:image" content="https://www.citycoolers.co.ug/images/og-about.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     
-     <link rel="icon" type="image/svg+xml" href="images/logo.png">
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="images/logo.png">
+    
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="About Us - City Coolers Engineering Ltd | Refrigeration Experts in Uganda">
-    <meta name="twitter:description" content="Leading refrigeration and air conditioning company in Kampala, Uganda. Certified engineers with 45+ years of experience.">
+    <meta name="twitter:description" content="Leading refrigeration and air conditioning company in Kampala, Uganda. Certified engineers with 8+ years of experience.">
     <meta name="twitter:image" content="https://www.citycoolers.co.ug/images/og-about.jpg">
     
     <meta charset="utf-8">
@@ -35,12 +36,80 @@
     <link rel="stylesheet" href="css/magnific-popup.css">
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
+    <a href="https://wa.me/256748239124" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+    </a>
 
-    
     <style>
         /* =============================================
-                   WHY CHOOSE US - CLEAN STYLES WITH BLACK TEXT
-                   ============================================= */
+           WHATSAPP FLOATING BUTTON
+           ============================================= */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #ffffff;
+            font-size: 32px;
+            text-decoration: none;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            transition: all 0.3s ease;
+            z-index: 9999;
+            animation: whatsapp-pulse 2s infinite;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
+            color: #ffffff;
+        }
+
+        .whatsapp-float .whatsapp-icon {
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-float:hover .whatsapp-icon {
+            transform: scale(1.1);
+        }
+
+        @keyframes whatsapp-pulse {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4); }
+            70% { box-shadow: 0 0 0 20px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+
+        @media (max-width: 768px) {
+            .whatsapp-float {
+                width: 55px;
+                height: 55px;
+                font-size: 28px;
+                bottom: 20px;
+                right: 20px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .whatsapp-float {
+                width: 50px;
+                height: 50px;
+                font-size: 24px;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+
+        /* =============================================
+           WHY CHOOSE US - CLEAN STYLES WITH BLACK TEXT
+           ============================================= */
         .why-choose-section {
             padding: 80px 0;
             background: #f8f9fa;
@@ -71,7 +140,6 @@
             margin: 0 auto;
         }
         
-        /* ---- Feature Cards ---- */
         .feature-card {
             background: #ffffff;
             border: 1px solid #e8ecf1;
@@ -94,7 +162,6 @@
             border-color: #1a73e8;
         }
         
-        /* ---- Icon Circle ---- */
         .icon-circle {
             width: 80px;
             height: 80px;
@@ -129,7 +196,6 @@
             color: #ffffff;
         }
         
-        /* ---- Card Titles - BLACK ---- */
         .feature-card h3 {
             color: #1a1a2e !important;
             font-size: 1.2rem;
@@ -142,7 +208,6 @@
             color: #1a73e8 !important;
         }
         
-        /* ---- Card Text - BLACK ---- */
         .feature-card p {
             color: #444 !important;
             font-size: 0.92rem;
@@ -151,7 +216,6 @@
             margin: 0 auto;
         }
         
-        /* ---- Feature Number ---- */
         .feature-number {
             position: absolute;
             top: 12px;
@@ -169,7 +233,6 @@
             transform: scale(1.05);
         }
         
-        /* ---- CTA Button ---- */
         .why-choose-section .btn-primary {
             background: #1a73e8;
             border: none;
@@ -191,7 +254,6 @@
             color: #fff;
         }
         
-        /* ---- Responsive ---- */
         @media (max-width: 768px) {
             .why-choose-section {
                 padding: 50px 0;
@@ -228,95 +290,377 @@
                 font-size: 0.85rem;
             }
         }
+
+        /* =============================================
+           NAVBAR LOGO
+           ============================================= */
+        .navbar-brand {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbar-logo {
+            height: 100px;
+            width: auto;
+            max-height: 45px;
+            object-fit: contain;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-logo {
+                height: 35px;
+                max-height: 35px;
+            }
+        }
+
+        /* =============================================
+           WHY CHOOSE CITY COOLERS - FEATURES
+           ============================================= */
+        .feature-box {
+            background: #ffffff;
+            padding: 2rem 1.5rem;
+            border-radius: 12px;
+            transition: all 0.4s ease;
+            border: 1px solid #e8ecf1;
+            height: 100%;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+        }
+
+        .feature-box:hover {
+            transform: translateY(-8px);
+            border-color: #2b98f0;
+            box-shadow: 0 15px 40px rgba(43, 152, 240, 0.10);
+        }
+
+        .feature-icon {
+            width: 70px;
+            height: 70px;
+            background: #eef7ff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+            font-size: 30px;
+            color: #2b98f0;
+            transition: all 0.4s ease;
+        }
+
+        .feature-box:hover .feature-icon {
+            background: #2b98f0;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+        .feature-box h4 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 0.5rem;
+        }
+
+        .feature-box p {
+            color: #6c757d;
+            font-size: 0.9rem;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .stats-row {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            background: #2b98f0;
+            border-radius: 16px;
+            padding: 2rem 1.5rem;
+            box-shadow: 0 10px 40px rgba(43, 152, 240, 0.2);
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 0.5rem 1rem;
+        }
+
+        .stat-number {
+            display: block;
+            font-size: 2.2rem;
+            font-weight: 800;
+            color: #ffffff;
+            line-height: 1.2;
+        }
+
+        .stat-label {
+            display: block;
+            font-size: 0.85rem;
+            color: rgba(255,255,255,0.8);
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .feature-box {
+                padding: 1.5rem 1.2rem;
+            }
+            .feature-icon {
+                width: 55px;
+                height: 55px;
+                font-size: 24px;
+            }
+            .feature-box h4 {
+                font-size: 0.95rem;
+            }
+            .feature-box p {
+                font-size: 0.85rem;
+            }
+            .stats-row {
+                padding: 1.5rem 1rem;
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .stat-item {
+                padding: 0.3rem 0;
+            }
+            .stat-number {
+                font-size: 1.8rem;
+            }
+            .stat-label {
+                font-size: 0.8rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .feature-box {
+                padding: 1.2rem 1rem;
+            }
+            .feature-icon {
+                width: 48px;
+                height: 48px;
+                font-size: 20px;
+            }
+            .stat-number {
+                font-size: 1.5rem;
+            }
+        }
+
+        /* =============================================
+           FOOTER - PROFESSIONAL & CLEAN
+           ============================================= */
+        .footer {
+            background: #0f1a2e;
+            color: rgba(255, 255, 255, 0.8);
+            padding: 4rem 0 0;
+            position: relative;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #2b98f0, #1a7ac4, #2b98f0);
+        }
+
+        .footer .footer-heading {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 0.8rem;
+        }
+
+        .footer .footer-heading::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 35px;
+            height: 2px;
+            background: #2b98f0;
+        }
+
+        .footer .footer-heading span {
+            color: #2b98f0;
+        }
+
+        .footer-description {
+            font-size: 0.92rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.7);
+            margin-bottom: 1.5rem;
+        }
+
+        .ftco-footer-social {
+            gap: 8px;
+        }
+
+        .ftco-footer-social li a {
+            width: 38px;
+            height: 38px;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .ftco-footer-social li a:hover {
+            background: #2b98f0;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(43, 152, 240, 0.3);
+            border-color: #2b98f0;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-links li a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+        }
+
+        .footer-links li a i {
+            font-size: 10px;
+            color: #2b98f0;
+            transition: transform 0.3s ease;
+        }
+
+        .footer-links li a:hover {
+            color: #ffffff;
+            transform: translateX(5px);
+        }
+
+        .footer-links li a:hover i {
+            transform: translateX(3px);
+        }
+
+        .footer-contact li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 0.8rem;
+            font-size: 0.9rem;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        .footer-contact li .icon {
+            color: #2b98f0;
+            font-size: 16px;
+            width: 20px;
+            margin-top: 2px;
+            flex-shrink: 0;
+        }
+
+        .footer-contact li .text {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.6;
+        }
+
+        .footer-contact li a {
+            color: rgba(255, 255, 255, 0.7);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .footer-contact li a:hover {
+            color: #2b98f0;
+        }
+
+        .footer-contact li a:hover .text {
+            color: #2b98f0;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.06);
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
+        }
+
+        .footer-bottom .copyright {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .footer-bottom .copyright a {
+            color: #2b98f0;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .footer-bottom .copyright a:hover {
+            color: #ffffff;
+        }
+
+        .footer-bottom .copyright .fa-heart {
+            color: #ff6b6b;
+        }
+
+        @media (max-width: 992px) {
+            .footer { padding: 3rem 0 0; }
+        }
+
+        @media (max-width: 768px) {
+            .footer { padding: 2.5rem 0 0; }
+            .footer .footer-heading {
+                font-size: 1.1rem;
+                margin-bottom: 1rem;
+            }
+            .footer .footer-heading::after {
+                width: 25px;
+            }
+            .ftco-footer-social li a {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+            }
+            .footer-bottom {
+                text-align: center;
+            }
+            .footer-bottom .col-md-6 {
+                text-align: center !important;
+                margin-bottom: 0.5rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .footer { padding: 2rem 0 0; }
+            .footer .footer-heading {
+                font-size: 1rem;
+            }
+            .footer-links li a {
+                font-size: 0.85rem;
+            }
+            .footer-contact li {
+                font-size: 0.85rem;
+            }
+            .footer-bottom .copyright {
+                font-size: 0.8rem;
+            }
+        }
     </style>
-</head>
-<body>
-  <!-- ===== WHATSAPP FLOATING BUTTON ===== -->
-<a href="https://wa.me/256748239124" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
-    <i class="fa fa-whatsapp whatsapp-icon"></i>
-</a>
 
-<style>
-/* =============================================
-   WHATSAPP FLOATING BUTTON
-   ============================================= */
-
-.whatsapp-float {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 60px;
-    height: 60px;
-    background: #25D366;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    font-size: 32px;
-    text-decoration: none;
-    box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
-    transition: all 0.3s ease;
-    z-index: 9999;
-    animation: whatsapp-pulse 2s infinite;
-}
-
-.whatsapp-float:hover {
-    transform: scale(1.1);
-    box-shadow: 0 8px 35px rgba(37, 211, 102, 0.5);
-    color: #ffffff;
-}
-
-.whatsapp-float .whatsapp-icon {
-    transition: transform 0.3s ease;
-}
-
-.whatsapp-float:hover .whatsapp-icon {
-    transform: scale(1.1);
-}
-
-/* ---- Pulse Animation ---- */
-@keyframes whatsapp-pulse {
-    0% {
-        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.4);
-    }
-    70% {
-        box-shadow: 0 0 0 20px rgba(37, 211, 102, 0);
-    }
-    100% {
-        box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
-    }
-}
-
-/* ---- Responsive ---- */
-@media (max-width: 768px) {
-    .whatsapp-float {
-        width: 55px;
-        height: 55px;
-        font-size: 28px;
-        bottom: 20px;
-        right: 20px;
-    }
-}
-
-@media (max-width: 480px) {
-    .whatsapp-float {
-        width: 50px;
-        height: 50px;
-        font-size: 24px;
-        bottom: 15px;
-        right: 15px;
-    }
-}
-</style>
     <!-- ===== TOP BAR ===== -->
     <div class="wrap">
         <div class="container">
             <div class="row justify-content-between">
                 <div class="col-12 col-md d-flex align-items-center">
                     <p class="mb-0 phone">
-                        <span class="mailus">Phone:</span> <a href="#">+256 705 244 988</a> 
-                        <span class="mailus">Email:</span> <a href="#">info@citycoolers.co.ug</a>
+                        <span class="mailus">Phone:</span> <a href="tel:+256705244988">+256 705 244 988</a> 
+                        <span class="mailus">Email:</span> <a href="mailto:info@citycoolers.co.ug">info@citycoolers.co.ug</a>
                     </p>
                 </div>
                 <div class="col-12 col-md d-flex justify-content-md-end">
@@ -336,45 +680,24 @@
     <!-- ===== NAVBAR ===== -->
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-    <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="City Coolers Logo" class="navbar-logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="fa fa-bars"></span> Menu
-    </button>
-    <div class="collapse navbar-collapse" id="ftco-nav">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-            <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
-            <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
-            <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-            <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-            <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-        </ul>
-    </div>
-</div>
-
-<style>
-.navbar-brand {
-    display: flex;
-    align-items: center;
-}
-
-.navbar-logo {
-    height: 100px;
-    width: auto;
-    max-height: 45px;
-    object-fit: contain;
-}
-
-@media (max-width: 768px) {
-    .navbar-logo {
-        height: 35px;
-        max-height: 35px;
-    }
-}
-</style>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="City Coolers Logo" class="navbar-logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars"></span> Menu
+            </button>
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+                    <li class="nav-item"><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
     
     <!-- ===== HERO ===== -->
@@ -406,7 +729,7 @@
                                     <h4>Opening Days:</h4>
                                     <p class="pl-3">
                                         <span><strong>Monday – Friday:</strong> 9am to 8pm</span>
-                                        <span><strong>Saturday:</strong> 9am to 5pm</span>
+                                        <span><strong>Saturday:</strong> 9am to 3:30pm</span>
                                     </p>
                                     <h4>Vacations:</h4>
                                     <p class="pl-3">
@@ -427,16 +750,22 @@
                         <div class="col-md-12 heading-section ftco-animate">
                             <span class="subheading">Welcome to City Coolers Engineering Ltd</span>
                             <h2 class="mb-4">Your trusted partner for commercial and industrial refrigeration solutions</h2>
-                            <p>City Coolers Engineering Ltd is a Ugandan-based incorporated company situated in Kampala. City Coolers Engineering Ltd offers sales and services such as air conditioning and Refrigeration, mechanical works, electrical, security and alarm systems.</p>
-                            <p>The demand & requirements for electrical, air conditioning, refrigeration, mechanical works, and security and alarm systems has taken a new trend due to progressive increase in population, offices, homes, & industrial consumption level which has tremendously increased. This comes with a challenge of sourcing for well qualified/certified engineers & technical team to install & service the equipment for maximum benefit in this fast & competitive world.</p>
-                            <p>Not only does our certified technical team specialize in the latest technologies and delivery of unmatched results, but we are also dedicated to learning and supporting your business as a whole by providing you with cost efficient solutions. We deliver unprecedented service to our clients through a commitment to quality, safety & protection of environment, efficient utilization of capital assets, higher standards and risk management.</p>
+                            
+                            <!-- UPDATED: Using exact wording from PDF -->
+                            <p><strong>City Coolers Engineering Limited</strong> is a Ugandan based incorporated company situated in Kampala City. City Coolers Engineering Ltd offers sales and services such as: Air Conditioning &amp; Cold room/freezer, Mechanical Works, Electrical, Security &amp; Alarm Systems.</p>
+                            
+                            <p>The demand &amp; requirements for electrical, air conditioning, coldroom/freezer, mechanical works, security &amp; alarm systems has taken a new trend due to progressive increase in population, offices, homes &amp; industrial consumption level which has tremendously increased. This comes with a challenge of sourcing for well qualified/certified engineers &amp; technical team to install &amp; service the equipments for maximum benefit in the fast and competitive world.</p>
+                            
+                            <p><strong>City Coolers Engineering Limited</strong> has an aggregate experience with certified and highly skilled engineers and technical teams that offer to our client's satisfactory results and long lasting solutions to their concerns/problems. Not only do our certified technical team specialize in the latest technologies and delivery of unmatched results, but we are also dedicated to learning and supporting your business as a whole by providing you with a cost efficient solutions.</p>
+                            
+                            <p>We deliver unprecedented business for our clients through a commitment to qualify, safety &amp; protection of environment, efficient utilization of capital assets and higher standard risk management.</p>
                         </div>
                     </div>
                     <div class="row ftco-counter py-5" id="section-counter">
                         <div class="col-md-6 col-lg-4 d-flex justify-content-center counter-wrap ftco-animate">
                             <div class="block-18">
                                 <div class="text">
-                                    <strong class="number" data-number="5">0</strong>
+                                    <strong class="number" data-number="8">0</strong>
                                 </div>
                                 <div class="text">
                                     <span>Years of <br>Experience</span>
@@ -469,82 +798,205 @@
         </div>
     </section>
 
-    <!-- ===== TEAM SECTION ===== -->
     <!-- ===== WHY CHOOSE CITY COOLERS ===== -->
-<section class="ftco-section">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center pb-4 mb-3">
+                <div class="col-md-8 heading-section text-center ftco-animate">
+                    <span class="subheading">Why City Coolers</span>
+                    <h2>Your Trusted <span class="text-primary">Refrigeration Partner</span></h2>
+                    <p class="text-muted">Delivering excellence in cooling solutions across Uganda and East Africa</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <!-- Feature 1: Experience -->
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <span class="fa fa-trophy"></span>
+                        </div>
+                        <h4>8+ Years Experience</h4>
+                        <p>Aggregate experience with certified and highly skilled engineers and technical teams.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 2: Quality -->
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <span class="fa fa-shield"></span>
+                        </div>
+                        <h4>Quality Assurance</h4>
+                        <p>Commitment to quality, safety &amp; protection of environment with high standards.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 3: Customer Focus -->
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <span class="fa fa-users"></span>
+                        </div>
+                        <h4>2,300+ Happy Customers</h4>
+                        <p>Trusted by businesses across multiple industries for reliable cooling solutions.</p>
+                    </div>
+                </div>
+
+                <!-- Feature 4: Innovation -->
+                <div class="col-md-6 col-lg-3 ftco-animate">
+                    <div class="feature-box text-center">
+                        <div class="feature-icon">
+                            <span class="fa fa-rocket"></span>
+                        </div>
+                        <h4>Innovation &amp; Technology</h4>
+                        <p>Specializing in the latest technologies delivering unmatched results.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Stats Row -->
+            <div class="row justify-content-center mt-5 pt-3">
+                <div class="col-md-10">
+                    <div class="stats-row">
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2,300+</span>
+                            <span class="stat-label">Happy Customers</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">30+</span>
+                            <span class="stat-label">Buildings Cooled</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">#1</span>
+                            <span class="stat-label">PU Panel Producer in China</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== MISSION & VISION ===== -->
+    <section class="ftco-section bg-light mission-vision-section">
     <div class="container">
         <div class="row justify-content-center pb-4 mb-3">
             <div class="col-md-8 heading-section text-center ftco-animate">
-                <span class="subheading">Why City Coolers</span>
-                <h2>Your Trusted <span class="text-primary">Refrigeration Partner</span></h2>
-                <p class="text-muted">Delivering excellence in cooling solutions across Uganda and East Africa</p>
+                <span class="subheading">Our Core Values</span>
+                <h2>Mission &amp; <span class="text-primary">Vision</span></h2>
+                <div class="section-divider"></div>
+                <p class="text-muted">Guiding principles that drive us to deliver excellence in every project</p>
             </div>
         </div>
+
+        <!-- Mission & Vision Cards -->
         <div class="row g-4">
-            <!-- Feature 1: Experience -->
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <span class="fa fa-trophy"></span>
+            <div class="col-md-6 ftco-animate">
+                <div class="mv-card vision-card">
+                    <div class="mv-icon">
+                        <span class="fa fa-eye"></span>
                     </div>
-                    <h4>45+ Years Experience</h4>
-                    <p>Decades of expertise in refrigeration and air conditioning solutions for diverse industries.</p>
+                    <h3>Our Vision</h3>
+                    <p>To become East Africa's most reliable air conditioning, refrigeration, electrical, mechanical works and security system providers.</p>
+                    <div class="mv-number">01</div>
                 </div>
             </div>
-
-            <!-- Feature 2: Quality -->
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <span class="fa fa-shield"></span>
+            <div class="col-md-6 ftco-animate">
+                <div class="mv-card mission-card">
+                    <div class="mv-icon">
+                        <span class="fa fa-bullseye"></span>
                     </div>
-                    <h4>Quality Assurance</h4>
-                    <p>Top-ranked PU panel producer in China and trusted supplier on Alibaba marketplace.</p>
-                </div>
-            </div>
-
-            <!-- Feature 3: Customer Focus -->
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <span class="fa fa-users"></span>
-                    </div>
-                    <h4>2,300+ Happy Customers</h4>
-                    <p>Trusted by businesses across multiple industries for reliable cooling solutions.</p>
-                </div>
-            </div>
-
-            <!-- Feature 4: Innovation -->
-            <div class="col-md-6 col-lg-3 ftco-animate">
-                <div class="feature-box text-center">
-                    <div class="feature-icon">
-                        <span class="fa fa-rocket"></span>
-                    </div>
-                    <h4>Innovation &amp; Technology</h4>
-                    <p>Modern, energy-efficient solutions using the latest refrigeration technology.</p>
+                    <h3>Our Mission</h3>
+                    <p>To provide reliable, cost-effective, and sustainable engineering solutions that enhance comfort, safety, and productivity for our clients while building lasting partnerships based on trust and excellence.</p>
+                    <div class="mv-number">02</div>
                 </div>
             </div>
         </div>
-        
-        <!-- Stats Row -->
-        <div class="row justify-content-center mt-5 pt-3">
-            <div class="col-md-10">
-                <div class="stats-row">
-                    <div class="stat-item">
-                        <span class="stat-number">45+</span>
-                        <span class="stat-label">Years Experience</span>
+
+        <!-- Objectives -->
+        <div class="row justify-content-center mt-5 pt-3 ftco-animate">
+            <div class="col-md-12">
+                <div class="objectives-card">
+                    <div class="objectives-header">
+                        <span class="fa fa-tasks"></span>
+                        <h3>Our Objectives</h3>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">2,300+</span>
-                        <span class="stat-label">Happy Customers</span>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <div class="objective-item">
+                                <span class="objective-icon"><i class="fa fa-users"></i></span>
+                                <span>Improve Employee Capabilities</span>
+                            </div>
+                            <div class="objective-item">
+                                <span class="objective-icon"><i class="fa fa-line-chart"></i></span>
+                                <span>Increase Efficiency</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="objective-item">
+                                <span class="objective-icon"><i class="fa fa-star"></i></span>
+                                <span>Deliver Quality Customer Service</span>
+                            </div>
+                            <div class="objective-item">
+                                <span class="objective-icon"><i class="fa fa-globe"></i></span>
+                                <span>Capture a Bigger Market</span>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="objective-item">
+                                <span class="objective-icon"><i class="fa fa-shield"></i></span>
+                                <span>Insure Financial Sustainability</span>
+                            </div>
+                            <div class="objective-item">
+                                <span class="objective-icon"><i class="fa fa-trophy"></i></span>
+                                <span>Maintain Profitability</span>
+                            </div>
+                        </div>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">30+</span>
-                        <span class="stat-label">Buildings Cooled</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Values -->
+        <div class="row justify-content-center mt-4 ftco-animate">
+            <div class="col-md-12">
+                <div class="values-card">
+                    <div class="values-header">
+                        <span class="fa fa-heart"></span>
+                        <h3>Our Values</h3>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">#1</span>
-                        <span class="stat-label">PU Panel Producer in China</span>
+                    <div class="row g-3">
+                        <div class="col-md-3 col-6">
+                            <div class="value-item">
+                                <div class="value-icon"><i class="fa fa-star"></i></div>
+                                <h4>Customer Service</h4>
+                                <span>Excellence</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="value-item">
+                                <div class="value-icon"><i class="fa fa-shield"></i></div>
+                                <h4>High Ethical</h4>
+                                <span>Standards</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="value-item">
+                                <div class="value-icon"><i class="fa fa-handshake-o"></i></div>
+                                <h4>Integrity</h4>
+                                <span>&amp; Respect</span>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-6">
+                            <div class="value-item">
+                                <div class="value-icon"><i class="fa fa-certificate"></i></div>
+                                <h4>High Quality</h4>
+                                <span>Standards</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -554,259 +1006,376 @@
 
 <style>
 /* =============================================
-   WHY CHOOSE CITY COOLERS - FEATURES
+   MISSION & VISION - APPEALING DESIGN
    ============================================= */
 
-.feature-box {
+.mission-vision-section {
+    padding: 80px 0;
+}
+
+/* ---- Section Header ---- */
+.mission-vision-section .subheading {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    background: #e8f0fe;
+    color: #1a73e8;
+    padding: 6px 24px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.mission-vision-section h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-top: 12px;
+}
+
+.mission-vision-section h2 .text-primary {
+    color: #2b98f0;
+}
+
+.section-divider {
+    width: 50px;
+    height: 3px;
+    background: #2b98f0;
+    margin: 12px auto;
+    border-radius: 2px;
+}
+
+/* ---- Mission & Vision Cards ---- */
+.mv-card {
     background: #ffffff;
-    padding: 2rem 1.5rem;
-    border-radius: 12px;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    position: relative;
+    overflow: hidden;
     transition: all 0.4s ease;
     border: 1px solid #e8ecf1;
     height: 100%;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
 }
 
-.feature-box:hover {
+.mv-card:hover {
     transform: translateY(-8px);
-    border-color: #2b98f0;
-    box-shadow: 0 15px 40px rgba(43, 152, 240, 0.10);
+    box-shadow: 0 15px 45px rgba(43, 152, 240, 0.1);
 }
 
-/* ---- Icon ---- */
-.feature-icon {
-    width: 70px;
-    height: 70px;
+.mv-card .mv-icon {
+    width: 65px;
+    height: 65px;
     background: #eef7ff;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0 auto 1rem;
-    font-size: 30px;
+    font-size: 28px;
+    color: #2b98f0;
+    margin-bottom: 1.2rem;
+    transition: all 0.4s ease;
+}
+
+.mv-card:hover .mv-icon {
+    background: #2b98f0;
+    color: #fff;
+    transform: scale(1.05) rotate(-5deg);
+}
+
+.mv-card h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin-bottom: 0.8rem;
+}
+
+.mv-card p {
+    color: #6c757d;
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0;
+}
+
+.mv-number {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgba(43, 152, 240, 0.06);
+    line-height: 1;
+    transition: all 0.4s ease;
+}
+
+.mv-card:hover .mv-number {
+    color: rgba(43, 152, 240, 0.12);
+    transform: scale(1.1);
+}
+
+/* ---- Specific Card Styles ---- */
+.vision-card {
+    border-top: 4px solid #2b98f0;
+}
+
+.mission-card {
+    border-top: 4px solid #1a7ac4;
+}
+
+.mission-card .mv-icon {
+    background: #e8f0fe;
+    color: #1a7ac4;
+}
+
+.mission-card:hover .mv-icon {
+    background: #1a7ac4;
+    color: #fff;
+}
+
+/* ---- Objectives Card ---- */
+.objectives-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem 2rem 2.5rem;
+    border: 1px solid #e8ecf1;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    transition: all 0.4s ease;
+}
+
+.objectives-card:hover {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+}
+
+.objectives-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid #f0f4ff;
+}
+
+.objectives-header span {
+    font-size: 28px;
+    color: #2b98f0;
+}
+
+.objectives-header h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.objective-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 10px 15px;
+    background: #f8faff;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+    transition: all 0.3s ease;
+    border: 1px solid #e8ecf1;
+}
+
+.objective-item:hover {
+    background: #eef7ff;
+    border-color: #2b98f0;
+    transform: translateX(5px);
+}
+
+.objective-item .objective-icon {
+    width: 32px;
+    height: 32px;
+    background: #2b98f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.objective-item span {
+    font-size: 0.95rem;
+    color: #1a1a2e;
+    font-weight: 500;
+}
+
+/* ---- Values Card ---- */
+.values-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 2rem 2rem 2.5rem;
+    border: 1px solid #e8ecf1;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.04);
+    transition: all 0.4s ease;
+}
+
+.values-card:hover {
+    box-shadow: 0 10px 40px rgba(0,0,0,0.06);
+}
+
+.values-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid #f0f4ff;
+}
+
+.values-header span {
+    font-size: 28px;
+    color: #ff6b6b;
+}
+
+.values-header h3 {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1a1a2e;
+    margin: 0;
+}
+
+.value-item {
+    text-align: center;
+    padding: 1.2rem 0.5rem;
+    border-radius: 12px;
+    transition: all 0.4s ease;
+    border: 1px solid #e8ecf1;
+    background: #fafcff;
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+    border-color: #2b98f0;
+    box-shadow: 0 8px 25px rgba(43, 152, 240, 0.08);
+}
+
+.value-item .value-icon {
+    width: 50px;
+    height: 50px;
+    background: #eef7ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 0.8rem;
+    font-size: 22px;
     color: #2b98f0;
     transition: all 0.4s ease;
 }
 
-.feature-box:hover .feature-icon {
+.value-item:hover .value-icon {
     background: #2b98f0;
     color: #fff;
-    transform: scale(1.05);
+    transform: rotateY(180deg);
 }
 
-/* ---- Text ---- */
-.feature-box h4 {
-    font-size: 1.05rem;
+.value-item h4 {
+    font-size: 0.95rem;
     font-weight: 700;
     color: #1a1a2e;
-    margin-bottom: 0.5rem;
-}
-
-.feature-box p {
-    color: #6c757d;
-    font-size: 0.9rem;
-    line-height: 1.7;
     margin: 0;
+    line-height: 1.3;
 }
 
-/* =============================================
-   STATS ROW
-   ============================================= */
-
-.stats-row {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    background: #2b98f0;
-    border-radius: 16px;
-    padding: 2rem 1.5rem;
-    box-shadow: 0 10px 40px rgba(43, 152, 240, 0.2);
-}
-
-.stat-item {
-    text-align: center;
-    padding: 0.5rem 1rem;
-}
-
-.stat-number {
-    display: block;
-    font-size: 2.2rem;
-    font-weight: 800;
-    color: #ffffff;
-    line-height: 1.2;
-}
-
-.stat-label {
-    display: block;
-    font-size: 0.85rem;
-    color: rgba(255,255,255,0.8);
+.value-item span {
+    font-size: 0.8rem;
+    color: #6c757d;
     font-weight: 500;
 }
 
-/* =============================================
-   RESPONSIVE
-   ============================================= */
-
+/* ---- Responsive ---- */
 @media (max-width: 768px) {
-    .feature-box {
+    .mission-vision-section {
+        padding: 50px 0;
+    }
+    
+    .mission-vision-section h2 {
+        font-size: 2rem;
+    }
+    
+    .mv-card {
+        padding: 1.8rem 1.5rem;
+    }
+    
+    .mv-card .mv-icon {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+    
+    .mv-card h3 {
+        font-size: 1.1rem;
+    }
+    
+    .mv-number {
+        font-size: 2.2rem;
+    }
+    
+    .objectives-card,
+    .values-card {
         padding: 1.5rem 1.2rem;
     }
     
-    .feature-icon {
-        width: 55px;
-        height: 55px;
-        font-size: 24px;
+    .objective-item {
+        padding: 8px 12px;
     }
     
-    .feature-box h4 {
-        font-size: 0.95rem;
-    }
-    
-    .feature-box p {
+    .objective-item span {
         font-size: 0.85rem;
     }
     
-    .stats-row {
-        padding: 1.5rem 1rem;
-        flex-direction: column;
-        gap: 1rem;
+    .value-item {
+        padding: 1rem 0.3rem;
     }
     
-    .stat-item {
-        padding: 0.3rem 0;
+    .value-item .value-icon {
+        width: 42px;
+        height: 42px;
+        font-size: 18px;
     }
     
-    .stat-number {
-        font-size: 1.8rem;
-    }
-    
-    .stat-label {
-        font-size: 0.8rem;
+    .value-item h4 {
+        font-size: 0.85rem;
     }
 }
 
 @media (max-width: 480px) {
-    .feature-box {
-        padding: 1.2rem 1rem;
+    .mission-vision-section h2 {
+        font-size: 1.6rem;
     }
     
-    .feature-icon {
-        width: 48px;
-        height: 48px;
-        font-size: 20px;
+    .mv-card {
+        padding: 1.5rem 1rem;
     }
     
-    .stat-number {
-        font-size: 1.5rem;
+    .mv-card p {
+        font-size: 0.9rem;
+    }
+    
+    .objective-item {
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        padding: 10px 8px;
+    }
+    
+    .objective-item .objective-icon {
+        width: 28px;
+        height: 28px;
+        font-size: 12px;
+    }
+    
+    .objective-item span {
+        font-size: 0.8rem;
+        text-align: center;
     }
 }
 </style>
-
-    <!-- ============================================================
-         WHY CHOOSE US - CLEAN SECTION WITH BLACK TEXT
-         ============================================================ -->
-    <section class="ftco-section why-choose-section">
-        <div class="container">
-            <!-- Section Header -->
-            <div class="row justify-content-center pb-4 mb-3">
-                <div class="col-md-8 heading-section text-center ftco-animate">
-                    <span class="subheading">Why Choose Us</span>
-                    <h2 class="display-5 fw-bold">What Makes Us <span class="text-primary">Different</span></h2>
-                    <p class="section-desc">
-                        We combine technical excellence with a commitment to customer satisfaction, delivering cooling solutions you can trust.
-                    </p>
-                </div>
-            </div>
-
-            <!-- Feature Cards -->
-            <div class="row g-4">
-                <!-- Card 1: Certified Engineers -->
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch ftco-animate">
-                    <div class="feature-card text-center">
-                        <div class="icon-wrap">
-                            <div class="icon-circle">
-                                <span class="flaticon-quality"></span>
-                            </div>
-                        </div>
-                        <h3>Certified Engineers</h3>
-                        <p>
-                            Our team consists of qualified and certified engineers with extensive experience in refrigeration and air conditioning systems.
-                        </p>
-                        <div class="feature-number">01</div>
-                    </div>
-                </div>
-
-                <!-- Card 2: Latest Technology -->
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch ftco-animate">
-                    <div class="feature-card text-center">
-                        <div class="icon-wrap">
-                            <div class="icon-circle">
-                                <span class="flaticon-gear"></span>
-                            </div>
-                        </div>
-                        <h3>Latest Technology</h3>
-                        <p>
-                            We use the latest technologies and equipment to deliver unmatched results in every project we undertake.
-                        </p>
-                        <div class="feature-number">02</div>
-                    </div>
-                </div>
-
-                <!-- Card 3: 24/7 Support -->
-                <div class="col-md-6 col-lg-4 d-flex align-items-stretch ftco-animate">
-                    <div class="feature-card text-center">
-                        <div class="icon-wrap">
-                            <div class="icon-circle">
-                                <span class="flaticon-support"></span>
-                            </div>
-                        </div>
-                        <h3>24/7 Support</h3>
-                        <p>
-                            Emergency support available with quick response times to minimize downtime for your business.
-                        </p>
-                        <div class="feature-number">03</div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Bottom CTA -->
-            <div class="row justify-content-center mt-5 pt-3">
-                <div class="col-md-8 text-center">
-                    <p class="mb-0">
-                        <a href="services.html" class="btn-primary">
-                            Explore Our Services <i class="fa fa-arrow-right ms-2"></i>
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== MISSION & VISION ===== -->
-    <section class="ftco-section bg-light">
-        <div class="container">
-            <div class="row justify-content-center pb-5 mb-3">
-                <div class="col-md-7 heading-section text-center ftco-animate">
-                    <span class="subheading">Our Core Values</span>
-                    <h2>Mission &amp; Vision</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
-                    <div class="p-4 bg-white rounded-3 h-100 shadow-sm">
-                        <h3 style="color:#1a73e8;">OUR MISSION</h3>
-                        <p>Our mission is to provide the best comfort, service, air quality and electrical services possible, for the best price.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 pl-md-5">
-                    <div class="p-4 bg-white rounded-3 h-100 shadow-sm">
-                        <h3 style="color:#1a73e8;">OUR VISION</h3>
-                        <p>We value fair compensation, on and off-site training and a healthy company culture for all employees with an emphasis on being friendly to families and giving back to the community we serve.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <!-- ===== CTA BANNER ===== -->
     <section class="ftco-section ftco-intro" style="background-image: url('images/sliders/banner-hero.png');" data-stellar-background-ratio="0.5">
@@ -823,337 +1392,104 @@
 
     <!-- ===== FOOTER ===== -->
     <footer class="footer ftco-section">
-    <div class="container">
-        <div class="row">
-            <!-- Column 1: Company Info -->
-            <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
-                <h2 class="footer-heading">City <span>Coolers</span></h2>
-                <p class="footer-description">Your trusted partner for commercial and industrial refrigeration solutions in Uganda and across East Africa.</p>
-                <ul class="ftco-footer-social list-unstyled d-flex mt-4">
-                    <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="fa fa-youtube-play"></span></a></li>
-                    <li class="ftco-animate"><a href="#"><span class="fa fa-whatsapp"></span></a></li>
-                </ul>
+        <div class="container">
+            <div class="row">
+                <!-- Column 1: Company Info -->
+                <div class="col-md-6 col-lg-4 mb-4 mb-md-0">
+                    <h2 class="footer-heading">City <span>Coolers</span></h2>
+                    <p class="footer-description">Your trusted partner for commercial and industrial refrigeration solutions in Uganda and across East Africa.</p>
+                    <ul class="ftco-footer-social list-unstyled d-flex mt-4">
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-youtube-play"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="fa fa-whatsapp"></span></a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="col-md-6 col-lg-2 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Quick Links</h2>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html"><i class="fa fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.html"><i class="fa fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="services.html"><i class="fa fa-chevron-right"></i> Services</a></li>
+                        <li><a href="projects.html"><i class="fa fa-chevron-right"></i> Projects</a></li>
+                        <li><a href="blog.html"><i class="fa fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="contact.html"><i class="fa fa-chevron-right"></i> Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Services -->
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Our Services</h2>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="#"><i class="fa fa-chevron-right"></i> Cold Room / Storage</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i> Air Conditioning</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i> Water Chiller Systems</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i> Electrical Installation</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i> Security &amp; Alarm Systems</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i> Duct Extraction</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4: Contact Info -->
+                <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+                    <h2 class="footer-heading">Get In Touch</h2>
+                    <ul class="list-unstyled footer-contact">
+                        <li>
+                            <span class="icon fa fa-map-marker"></span>
+                            <span class="text">P.O.Box 147947, Mbuya II, Kampala<br>Nakawa - Old Jinja Road</span>
+                        </li>
+                        <li>
+                            <a href="tel:+256705244988">
+                                <span class="icon fa fa-phone"></span>
+                                <span class="text">+256 705 244 988</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:+256781332506">
+                                <span class="icon fa fa-phone"></span>
+                                <span class="text">+256 781 332 506</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto:info@citycoolers.co.ug">
+                                <span class="icon fa fa-paper-plane"></span>
+                                <span class="text">info@citycoolers.co.ug</span>
+                            </a>
+                        </li>
+                        <li>
+                            <span class="icon fa fa-clock-o"></span>
+                            <span class="text">Mon - Fri: 9am - 8pm</span>
+                        </li>
+                    </ul>
+                </div>
             </div>
 
-            <!-- Column 2: Quick Links -->
-            <div class="col-md-6 col-lg-2 mb-4 mb-md-0">
-                <h2 class="footer-heading">Quick Links</h2>
-                <ul class="list-unstyled footer-links">
-                    <li><a href="index.html"><i class="fa fa-chevron-right"></i> Home</a></li>
-                    <li><a href="about.html"><i class="fa fa-chevron-right"></i> About Us</a></li>
-                    <li><a href="services.html"><i class="fa fa-chevron-right"></i> Services</a></li>
-                    <li><a href="projects.html"><i class="fa fa-chevron-right"></i> Projects</a></li>
-                    <li><a href="blog.html"><i class="fa fa-chevron-right"></i> Blog</a></li>
-                    <li><a href="contact.html"><i class="fa fa-chevron-right"></i> Contact</a></li>
-                </ul>
-            </div>
-
-            <!-- Column 3: Services -->
-            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading">Our Services</h2>
-                <ul class="list-unstyled footer-links">
-                    <li><a href="#"><i class="fa fa-chevron-right"></i> Cold Room Installation</a></li>
-                    <li><a href="#"><i class="fa fa-chevron-right"></i> Blast Freezers</a></li>
-                    <li><a href="#"><i class="fa fa-chevron-right"></i> Air Conditioning</a></li>
-                    <li><a href="#"><i class="fa fa-chevron-right"></i> Refrigeration Units</a></li>
-                    <li><a href="#"><i class="fa fa-chevron-right"></i> Ice Machines</a></li>
-                    <li><a href="#"><i class="fa fa-chevron-right"></i> Mechanical &amp; Electrical</a></li>
-                </ul>
-            </div>
-
-            <!-- Column 4: Contact Info -->
-            <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading">Get In Touch</h2>
-                <ul class="list-unstyled footer-contact">
-                    <li>
-                        <span class="icon fa fa-map-marker"></span>
-                        <span class="text">Kampala, Uganda</span>
-                    </li>
-                    <li>
-                        <a href="tel:+256705244988">
-                            <span class="icon fa fa-phone"></span>
-                            <span class="text">+256 705 244 988</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+256781332506">
-                            <span class="icon fa fa-phone"></span>
-                            <span class="text">+256 781 332 506</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="mailto:info@citycoolers.co.ug">
-                            <span class="icon fa fa-paper-plane"></span>
-                            <span class="text">info@citycoolers.co.ug</span>
-                        </a>
-                    </li>
-                    <li>
-                        <span class="icon fa fa-clock-o"></span>
-                        <span class="text">Mon - Fri: 9am - 8pm</span>
-                    </li>
-                </ul>
+            <!-- Bottom Bar -->
+            <div class="row mt-5 pt-3 footer-bottom">
+                <div class="col-md-6 text-center text-md-left">
+                    <p class="copyright mb-0">
+                        &copy; <script>document.write(new Date().getFullYear());</script> City Coolers Engineering Ltd. All rights reserved.
+                    </p>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <p class="copyright mb-0">
+                        Designed with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="#" target="_blank">City Coolers Team</a>
+                    </p>
+                </div>
             </div>
         </div>
-
-        <!-- Bottom Bar -->
-        <div class="row mt-5 pt-3 footer-bottom">
-            <div class="col-md-6 text-center text-md-left">
-                <p class="copyright mb-0">
-                    &copy; <script>document.write(new Date().getFullYear());</script> City Coolers Engineering Ltd. All rights reserved.
-                </p>
-            </div>
-            <div class="col-md-6 text-center text-md-right">
-                <p class="copyright mb-0">
-                    Designed with <i class="fa fa-heart text-danger" aria-hidden="true"></i> by <a href="#" target="_blank">City Coolers Team</a>
-                </p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<style>
-/* =============================================
-   FOOTER - PROFESSIONAL & CLEAN
-   ============================================= */
-
-.footer {
-    background: #0f1a2e;
-    color: rgba(255, 255, 255, 0.8);
-    padding: 4rem 0 0;
-    position: relative;
-}
-
-.footer::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, #2b98f0, #1a7ac4, #2b98f0);
-}
-
-/* ---- Headings ---- */
-.footer .footer-heading {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: #ffffff;
-    margin-bottom: 1.5rem;
-    position: relative;
-    padding-bottom: 0.8rem;
-}
-
-.footer .footer-heading::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 35px;
-    height: 2px;
-    background: #2b98f0;
-}
-
-.footer .footer-heading span {
-    color: #2b98f0;
-}
-
-/* ---- Description ---- */
-.footer-description {
-    font-size: 0.92rem;
-    line-height: 1.8;
-    color: rgba(255, 255, 255, 0.7);
-    margin-bottom: 1.5rem;
-}
-
-/* ---- Social Icons ---- */
-.ftco-footer-social {
-    gap: 8px;
-}
-
-.ftco-footer-social li a {
-    width: 38px;
-    height: 38px;
-    background: rgba(255, 255, 255, 0.08);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 16px;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.05);
-}
-
-.ftco-footer-social li a:hover {
-    background: #2b98f0;
-    transform: translateY(-3px);
-    box-shadow: 0 5px 15px rgba(43, 152, 240, 0.3);
-    border-color: #2b98f0;
-}
-
-/* ---- Footer Links ---- */
-.footer-links li {
-    margin-bottom: 0.5rem;
-}
-
-.footer-links li a {
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.9rem;
-}
-
-.footer-links li a i {
-    font-size: 10px;
-    color: #2b98f0;
-    transition: transform 0.3s ease;
-}
-
-.footer-links li a:hover {
-    color: #ffffff;
-    transform: translateX(5px);
-}
-
-.footer-links li a:hover i {
-    transform: translateX(3px);
-}
-
-/* ---- Contact Info ---- */
-.footer-contact li {
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    margin-bottom: 0.8rem;
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.footer-contact li .icon {
-    color: #2b98f0;
-    font-size: 16px;
-    width: 20px;
-    margin-top: 2px;
-    flex-shrink: 0;
-}
-
-.footer-contact li .text {
-    color: rgba(255, 255, 255, 0.7);
-    line-height: 1.6;
-}
-
-.footer-contact li a {
-    color: rgba(255, 255, 255, 0.7);
-    text-decoration: none;
-    transition: color 0.3s ease;
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.footer-contact li a:hover {
-    color: #2b98f0;
-}
-
-.footer-contact li a:hover .text {
-    color: #2b98f0;
-}
-
-/* ---- Bottom Bar ---- */
-.footer-bottom {
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-}
-
-.footer-bottom .copyright {
-    font-size: 0.85rem;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.footer-bottom .copyright a {
-    color: #2b98f0;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.footer-bottom .copyright a:hover {
-    color: #ffffff;
-}
-
-.footer-bottom .copyright .fa-heart {
-    color: #ff6b6b;
-}
-
-/* ---- Responsive ---- */
-@media (max-width: 992px) {
-    .footer {
-        padding: 3rem 0 0;
-    }
-}
-
-@media (max-width: 768px) {
-    .footer {
-        padding: 2.5rem 0 0;
-    }
-    
-    .footer .footer-heading {
-        font-size: 1.1rem;
-        margin-bottom: 1rem;
-    }
-    
-    .footer .footer-heading::after {
-        width: 25px;
-    }
-    
-    .ftco-footer-social li a {
-        width: 35px;
-        height: 35px;
-        font-size: 14px;
-    }
-    
-    .footer-bottom {
-        text-align: center;
-    }
-    
-    .footer-bottom .col-md-6 {
-        text-align: center !important;
-        margin-bottom: 0.5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer {
-        padding: 2rem 0 0;
-    }
-    
-    .footer .footer-heading {
-        font-size: 1rem;
-    }
-    
-    .footer-links li a {
-        font-size: 0.85rem;
-    }
-    
-    .footer-contact li {
-        font-size: 0.85rem;
-    }
-    
-    .footer-bottom .copyright {
-        font-size: 0.8rem;
-    }
-}
-</style>
-    
-  
+    </footer>
 
     <!-- ===== LOADER ===== -->
-    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+    <div id="ftco-loader" class="show fullscreen">
+        <svg class="circular" width="48px" height="48px">
+            <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/>
+            <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+        </svg>
+    </div>
 
     <!-- ===== SCRIPTS ===== -->
     <script src="js/jquery.min.js"></script>
